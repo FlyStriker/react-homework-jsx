@@ -8,7 +8,7 @@ class RangeInput extends React.Component {
     render(){
           return (
             <>
-             <div class="Range_input">
+             <div className="Range_input">
               <p>Текст должен быть более <b>{this.props.min}</b> и менее <b>{this.props.max}</b> символов</p><p> Сейчас в тексте  <b>{this.state.text.length}</b> символов</p>
               <p><b>Напиши свой текст</b></p><br/>
               <input type="text" 
