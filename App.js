@@ -1,16 +1,18 @@
 import "./addSpoiler.css";
 import ShowSpoiler from "./addSpoiler";
+import RangeInput from "./RangeInput.jsx";
 
 function App() {
   return (
     <div className="App">
-      <ShowSpoiler header={<b>Push to show</b>} children>
+      <ShowSpoiler header={<b>Нажми что бы открыть !</b>} children>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia
-          enim illum ea eum laudantium odit modi esse minus impedit earum iusto
-          officiis animi porro voluptatibus dolor ab et aspernatur!
+        Доброе имя, как и живописное полотно, невозможно создать одним взмахом кисти: оно складывается из множества незначительных поступков. Поступая тем или иным образом, мы постепенно заслуживаем определённую репутацию.
         </p>
       </ShowSpoiler>
+        <div className="rangeInput">
+         <RangeInput min={4}  max={12}/><br/>
+        </div>
     </div>
   );
 }

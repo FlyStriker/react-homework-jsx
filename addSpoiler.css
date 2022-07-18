@@ -4,11 +4,11 @@
   margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: rgb(64, 18, 251);
+  background-color: rgb(51, 0, 255);
   border: 1px solid black;
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgb(138, 134, 134);
-  color: rgb(0, 255, 136);
+  color: rgb(194, 243, 255);
   font-size: 22px;
   text-align: center;
   transition: 500ms;
@@ -16,5 +16,5 @@
 }
 
 .Show_Spoiler b {
-  color: rgb(251, 255, 0);
+  color: rgb(255, 242, 0);
 }
